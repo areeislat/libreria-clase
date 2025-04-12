@@ -37,12 +37,12 @@ public class LibroService {
         return libroRepository.buscarLibroPorAutor(autor);
     }
 
-    public Libro actualizar(Libro lib){
-        return libroRepository.actualizar(lib);
+    public Libro actualizarLibro(Libro lib){
+        return libroRepository.actualizarLibro(lib);
     }
 
-    public void eliminar(int id){
-        libroRepository.eliminar(id);
-        System.out.println("El libro se está eliminando.");
+    public void eliminarLibro(int id){
+        libroRepository.eliminarLibro(id);
+        System.out.println("Libro eliminado");
     }
 }

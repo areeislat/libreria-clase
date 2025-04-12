@@ -55,7 +55,7 @@ public class LibroRepository {
     }
 
 
-    public Libro actualizar(Libro lib){
+    public Libro actualizarLibro(Libro lib){
 
         int id = 0;
         int idPosicion = 0;
@@ -80,7 +80,7 @@ public class LibroRepository {
         //return null;
     }
 
-public void eliminar(int id){
+public void eliminarLibro(int id){
 
     //alternativa 1
     Libro libro = buscarLibroPorId(id);
