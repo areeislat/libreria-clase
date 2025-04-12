@@ -86,7 +86,7 @@ public void eliminar(int id){
     Libro libro = buscarLibroPorId(id);
     if(libro != null) listaLibros.remove(libro);
 
-    //alternativa 2
+/*     //alternativa 2
     int idPosicion = 0;
     for(int i = 0; i>listaLibros.size();i++){
         if(listaLibros.get(i).getId() == id){
@@ -99,7 +99,7 @@ public void eliminar(int id){
 
     //alternativa 3
     listaLibros.removeIf(
-        (x) -> x.getId() == id);
+        (x) -> x.getId() == id); */
 }
 
 }
